@@ -30,7 +30,7 @@ A robust and production-ready RESTful API that lets users manage subscriptions s
 ✅ **Upcoming Renewals** – Auto-fetch renewals in the next 7 days  
 ✅ **Email Notifications** – Scheduled reminders using Upstash workflows  
 ✅ **Role-Based Authorization** – Route protection with middleware  
-✅ **Rate Limiting with Arcjet** – Secure public APIs from abuse  
+✅ **Rate Limiting and Bot Protection with Arcjet** – Secure public APIs from abuse  
 ✅ **Swagger UI** – Interactive API documentation  
 ✅ **Global Error Handling** – Consistent error responses  
 ✅ **Clean Architecture** – MVC structure with route separation
