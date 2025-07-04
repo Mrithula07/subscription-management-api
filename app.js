@@ -9,7 +9,7 @@ import errorMiddleware from "./middleware/error.middleware.js";
 import cookieParser from "cookie-parser";
 import arcjetMiddleware from "./middleware/arcject.middleware.js";
 import workflowRouter from "./routes/workflow.routes.js";
-
+import { setupSwaggerDocs } from "./config/swagger.js";
 const app = express();
 
 app.use(express.json());
@@ -27,6 +27,8 @@ app.use(errorMiddleware);
 app.get("/", (req, res) => {
   res.send("Welcome to the Subscription Tracker API!");
 });
+
+setupSwaggerDocs(app);
 
 app.listen(PORT, async () => {
   console.log(
